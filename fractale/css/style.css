@@ -1,0 +1,80 @@
+body
+{
+	background: url('../img/background.png');
+}
+
+.wrap {
+	width: 800px;
+	margin:0 auto;
+}
+
+.fract-form {
+	height:445px;
+	background: url('../img/background-form.png');
+	width: 600px;
+	margin: 15px auto;
+	box-shadow: -1px 2px 5px 1px rgba(4, 3, 3, 1);
+}
+
+.fract-form-header {
+	border-bottom: 2px solid #cdcdcd;
+	text-align: center;
+	height: 92px;
+}
+.fract-form-header img {
+	margin-top: 10px;
+}
+.fract-form-content {
+	text-align: center;
+}
+.fract-form-content input {
+	display: block;
+	margin: 30px auto;
+}
+.fract-form-content img
+{
+	margin: 30px auto;
+	margin-bottom: -20px;
+
+	display: block;
+}
+.styled-select
+{
+	margin: 30px auto;
+	margin-bottom: 15px;
+	display: block;
+	background: transparent;
+	background-color: white;
+	width: 268px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	height: 34px;
+	box-shadow: -1px 2px 5px 1px rgba(255, 255, 255, 1);
+
+}
+.styled-select select
+{
+
+}
+
+input[type="text"] {
+	padding: 10px;
+	border: none;
+	border-bottom: solid 4px #c9c9c9;
+	transition: border 0.3s;
+}
+.submit {
+	background: url('../img/background.png');
+	color: #333;
+	font-size: 14px;
+	padding: 8px 14px 9px;
+	font-weight: bold;
+	line-height: 1;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+}
+#fractal {
+  margin-left: 80;
+}
